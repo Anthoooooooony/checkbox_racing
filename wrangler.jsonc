@@ -1,0 +1,10 @@
+{
+  "name": "checkbox-racing",
+  "compatibility_date": "2024-09-19",
+  "compatibility_flags": ["nodejs_compat"],
+  "main": "./.output/server/index.mjs",
+  "assets": {
+    "binding": "ASSETS",
+    "directory": "./.output/public"
+  }
+}
