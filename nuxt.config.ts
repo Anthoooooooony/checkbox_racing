@@ -15,5 +15,8 @@ export default defineNuxtConfig({
     modules: [
         'nuxt-icon',
         '@vueuse/nuxt',
-    ]
+    ],
+    nitro: {
+        preset: "cloudflare_module",
+    },
 });
